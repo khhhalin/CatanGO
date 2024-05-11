@@ -1,0 +1,69 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    padding: 5px;
+    background-color: #f4f4f4;
+    text-align: left;
+}
+
+header h1 {
+    color: #333;
+    font-size: 24px; 
+    margin-bottom: 10px;
+}
+
+header {
+    border-bottom: 1px solid #ddd;
+}
+
+footer {
+    border-top: 1px solid #ddd;
+}
+
+main {
+    padding: 20px;
+    text-align: left;
+    min-height: 80vh; /* Using viewport height to ensure main takes up majority of the visible screen */
+}
+
+#game input[type="text"], #game button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+#game button {
+    background-color: rgb(42, 148, 136);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#game button:hover {
+    background-color: #0056b3;
+}
+
+.user-info {
+    font-size: 1.2em;
+    color: #333;
+}
+
+#messages {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    min-height: 50px; /* Provide space for messages */
+}
